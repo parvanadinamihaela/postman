@@ -1,0 +1,200 @@
+{
+	"info": {
+		"_postman_id": "87fb0d45-1f01-4419-9234-8ffce2d5b59e",
+		"name": "Weather by city name",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33717175",
+		"_collection_link": "https://red-crater-433841.postman.co/workspace/My-Workspace~0bf6adf5-f979-4bf3-8a17-1e01064f6606/collection/33717175-87fb0d45-1f01-4419-9234-8ffce2d5b59e?action=share&source=collection_link&creator=33717175"
+	},
+	"item": [
+		{
+			"name": "Get weather by city name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=london&appid=440c4ca45971435c6074a51518d81034",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "london"
+						},
+						{
+							"key": "appid",
+							"value": "440c4ca45971435c6074a51518d81034"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lang=ro",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=london&appid=440c4ca45971435c6074a51518d81034&mode=json&units=metric&lang=ro",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "london"
+						},
+						{
+							"key": "appid",
+							"value": "440c4ca45971435c6074a51518d81034"
+						},
+						{
+							"key": "mode",
+							"value": "json"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						}
+					]
+				},
+				"description": "lang=ro"
+			},
+			"response": []
+		},
+		{
+			"name": "mode=xml",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=london&appid=440c4ca45971435c6074a51518d81034&mode=xml",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "london"
+						},
+						{
+							"key": "appid",
+							"value": "440c4ca45971435c6074a51518d81034"
+						},
+						{
+							"key": "mode",
+							"value": "xml"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mode=json",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=london&appid=440c4ca45971435c6074a51518d81034&mode=json&lang=it",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "london"
+						},
+						{
+							"key": "appid",
+							"value": "440c4ca45971435c6074a51518d81034"
+						},
+						{
+							"key": "mode",
+							"value": "json"
+						},
+						{
+							"key": "lang",
+							"value": "it"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mode=xml",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=london&appid=440c4ca45971435c6074a51518d81034&mode=xml",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "london"
+						},
+						{
+							"key": "appid",
+							"value": "440c4ca45971435c6074a51518d81034"
+						},
+						{
+							"key": "mode",
+							"value": "xml"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

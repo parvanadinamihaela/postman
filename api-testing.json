@@ -1,0 +1,193 @@
+{
+	"info": {
+		"_postman_id": "25b26c16-0a87-46a2-93d5-d6263366082e",
+		"name": "tema api-omdb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33717175",
+		"_collection_link": "https://red-crater-433841.postman.co/workspace/My-Workspace~0bf6adf5-f979-4bf3-8a17-1e01064f6606/collection/33717175-25b26c16-0a87-46a2-93d5-d6263366082e?action=share&source=collection_link&creator=33717175"
+	},
+	"item": [
+		{
+			"name": "q=The Social Network",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=7800762f&i=tt1285016&plot=short",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "7800762f"
+						},
+						{
+							"key": "i",
+							"value": "tt1285016"
+						},
+						{
+							"key": "plot",
+							"value": "short"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "plot=short",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=7800762f&i=tt1285016&plot=short",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "7800762f"
+						},
+						{
+							"key": "i",
+							"value": "tt1285016"
+						},
+						{
+							"key": "plot",
+							"value": "short"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "q=game of thrones, season=1,ep=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?t=Game of Thrones&Season=1&Episode=1&apikey=7800762f",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "t",
+							"value": "Game of Thrones"
+						},
+						{
+							"key": "Season",
+							"value": "1"
+						},
+						{
+							"key": "Episode",
+							"value": "1"
+						},
+						{
+							"key": "apikey",
+							"value": "7800762f"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "r=xml",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?t=Game of Thrones&apikey=7800762f&plot=full&r=xml",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "t",
+							"value": "Game of Thrones"
+						},
+						{
+							"key": "apikey",
+							"value": "7800762f"
+						},
+						{
+							"key": "plot",
+							"value": "full"
+						},
+						{
+							"key": "r",
+							"value": "xml"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "s=Game of Thrones:the last watch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?s=Game of Thrones:the last watch&apikey=7800762f&plot=short&r=json",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "s",
+							"value": "Game of Thrones:the last watch"
+						},
+						{
+							"key": "apikey",
+							"value": "7800762f"
+						},
+						{
+							"key": "plot",
+							"value": "short"
+						},
+						{
+							"key": "r",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "e6276e97-035f-4f09-8cb0-7e5257a20871",
+		"name": "tema-API- newsapi.org",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33717175",
+		"_collection_link": "https://red-crater-433841.postman.co/workspace/My-Workspace~0bf6adf5-f979-4bf3-8a17-1e01064f6606/collection/33717175-e6276e97-035f-4f09-8cb0-7e5257a20871?action=share&source=collection_link&creator=33717175"
+	},
+	"item": [
+		{
+			"name": "q=apple",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?q=apple&apiKey=28d786d9db4c44ef86d50d03adc8c034",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "apple"
+						},
+						{
+							"key": "apiKey",
+							"value": "28d786d9db4c44ef86d50d03adc8c034"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "country=ro",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?q=apple&apiKey=28d786d9db4c44ef86d50d03adc8c034&country=ro",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "apple"
+						},
+						{
+							"key": "apiKey",
+							"value": "28d786d9db4c44ef86d50d03adc8c034"
+						},
+						{
+							"key": "country",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "category=technology",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?q=apple&apiKey=28d786d9db4c44ef86d50d03adc8c034&country=ro&category=technology",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "apple"
+						},
+						{
+							"key": "apiKey",
+							"value": "28d786d9db4c44ef86d50d03adc8c034"
+						},
+						{
+							"key": "country",
+							"value": "ro"
+						},
+						{
+							"key": "category",
+							"value": "technology"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
