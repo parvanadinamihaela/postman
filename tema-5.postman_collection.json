@@ -1,0 +1,238 @@
+{
+	"info": {
+		"_postman_id": "739e624f-de3d-47c4-87e3-c31a62532bc9",
+		"name": "tema - 5 day 3 hour",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33717175",
+		"_collection_link": "https://red-crater-433841.postman.co/workspace/My-Workspace~0bf6adf5-f979-4bf3-8a17-1e01064f6606/collection/33717175-739e624f-de3d-47c4-87e3-c31a62532bc9?action=share&source=collection_link&creator=33717175"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/forecast?q=timisoara&appid=440c4ca45971435c6074a51518d81034",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "timisoara"
+						},
+						{
+							"key": "appid",
+							"value": "440c4ca45971435c6074a51518d81034"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "q=Timisoara",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/forecast?q=timisoara&appid=440c4ca45971435c6074a51518d81034",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "timisoara"
+						},
+						{
+							"key": "appid",
+							"value": "440c4ca45971435c6074a51518d81034"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mode=html  ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/forecast?q=timisoara&appid=440c4ca45971435c6074a51518d81034&mode=html",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "timisoara"
+						},
+						{
+							"key": "appid",
+							"value": "440c4ca45971435c6074a51518d81034"
+						},
+						{
+							"key": "mode",
+							"value": "html"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cnt=17",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/forecast?q=timisoara&appid=440c4ca45971435c6074a51518d81034&mode=json&cnt=17",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "timisoara"
+						},
+						{
+							"key": "appid",
+							"value": "440c4ca45971435c6074a51518d81034"
+						},
+						{
+							"key": "mode",
+							"value": "json"
+						},
+						{
+							"key": "cnt",
+							"value": "17"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "units=metric",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/forecast?q=timisoara&appid=440c4ca45971435c6074a51518d81034&mode=json&cnt=17&units=metric",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "timisoara"
+						},
+						{
+							"key": "appid",
+							"value": "440c4ca45971435c6074a51518d81034"
+						},
+						{
+							"key": "mode",
+							"value": "json"
+						},
+						{
+							"key": "cnt",
+							"value": "17"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lang=ro",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/forecast?q=timisoara&appid=440c4ca45971435c6074a51518d81034&mode=json&cnt=17&units=metric&lang=ro",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "timisoara"
+						},
+						{
+							"key": "appid",
+							"value": "440c4ca45971435c6074a51518d81034"
+						},
+						{
+							"key": "mode",
+							"value": "json"
+						},
+						{
+							"key": "cnt",
+							"value": "17"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						}
+					]
+				},
+				"description": "\nIn the list of parameters, when you try \"learn more\" for the lang parameter, the list is not displayed: Page not found\nWe're sorry, but the page you requested cannot be found."
+			},
+			"response": []
+		}
+	]
+}
